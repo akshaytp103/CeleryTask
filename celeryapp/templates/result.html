@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+
+<section class="mail-seccess section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3 col-12">
+				<!-- Error Inner -->
+				<div class="success-inner">
+					<div class="alert alert-success">
+                        <strong>SUCCESSFULLY </strong> CREATER YOUR FILE !
+                      </div>
+					<a href="{% url 'index' %}" class="btn btn-link">GO TO HOME</a>
+                    <!-- <button type="button" class="btn btn-link">Link</button> -->
+				</div>
+				<!--/ End Error Inner -->
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}
